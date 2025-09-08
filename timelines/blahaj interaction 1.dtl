@@ -1,0 +1,63 @@
+[style name="first style"]
+[background arg="res://images/walking.png" fade="0.0"]
+elara: Time to walk to bed after a long day of doing nothing
+[background arg="res://images/IMG_0031.jpg" fade="0.0"]
+elara: waiiiiiiit
+elara: I think I see something on my bed
+[background arg="res://images/a3.png" fade="0.0"]
+elara: blahaj?!!!!!! \:3
+[background arg="res://images/a2.png" fade="0.0"]
+elara: it looks really cute
+elara: I rly want to hug it.
+label bbc
+[background arg="res://images/a1.png" fade="0.0"]
+narrator: what should Elara do about the blahaj?\
+(pssst... tell me what I should do in the comments)
+- hug the cutie
+	jump bbc
+- ask it out to a date
+	[background arg="res://images/b1.png" fade="0.0"]
+	"elaras mind": Im really nervous but then again... I wanna go for a date
+	"elaras mind": I should just ask for her number so then we can plan a date!
+	[background arg="res://images/b2.png" fade="0.0"]
+	elara: hey! I think you're really pretty
+	elara: can I get your number?
+	[background arg="res://images/b5.png" fade="0.0"]
+	blahaj: oh you think im pretty...
+	blahaj: I dont get that a lot \:3 Thank you!
+	blahaj: yea you can have my number
+	blahaj: give me your phone and I'll type my number in
+	[background arg="res://images/b3.png" fade="0.0"]
+	narrator: blahaj puts her number into Elaras phone
+	[background arg="res://images/b4.png" fade="0.0"]
+	"elaras mind": wow! I didn't think she would actually do that
+	elara: thanks for that! I'll text you
+	blahaj: talk to you later \:3
+	[background arg="res://images/walking.png" fade="0.0"]
+	narrator: Elara goes to her other bed to sleep
+	narrator: Elara thinks about how the fuck did a blahaj get into her house
+	narrator: Elara forgets about it because she is too exited that she got blahaj's number
+	[background arg="res://images/IMG_3502.jpg" fade="0.0"]
+	"elaras mind": I'm really sleepy I'm gonna go to bed
+	[wait time="1.0"]
+	[background arg="res://images/CCC2.png" fade="0.0"]
+	narrator: some time later, Elara wakes up
+	elara: Im so exited to go on a date with blahaj
+	[background arg="res://images/CCC1.png" fade="0.0"]
+	elara: Im going to call her right now !
+	label bbc2
+	narrator: were should Elara ask blahaj to go on a date? \
+(pssst... tell Elara what she should do in the comments)
+	- The park
+		jump bbc2
+	- The movies (to see hamilton)
+		jump bbc2
+	- tea party
+		jump bbc2
+	- hiking
+		jump bbc2
+	# just to separate it
+- slap it
+	jump bbc
+- ignore it
+	jump bbc
