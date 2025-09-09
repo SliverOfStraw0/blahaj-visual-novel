@@ -101,6 +101,15 @@ text = "created by
 @Elara_shelley 
 Simon Mickal"
 
+[node name="Label" type="Label" parent="CanvasLayer"]
+offset_left = 11.0
+offset_top = 225.0
+offset_right = 199.0
+offset_bottom = 248.0
+rotation = 1.57079
+scale = Vector2(0.488119, 0.488119)
+text = "@elara_shelley on tiktok"
+
 [node name="Timer" type="Timer" parent="."]
 wait_time = 3.5
 one_shot = true
