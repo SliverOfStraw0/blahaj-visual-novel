@@ -53,7 +53,43 @@ narrator: what should Elara do about the blahaj?\
 	- The movies (to see hamilton)
 		jump bbc2
 	- tea party
-		jump bbc2
+		elara: hey blahaj Would you like to get some tea with me?
+		blahaj: I thought you'd never ask 
+		blahaj: I wanted to ask you myself but then I kinda fell asleep \:3
+		elara: lets meet at the cafe 3pm 
+		blahaj: okey!!! so excited \:3
+		[wait time="1.0"]
+		[background arg="res://images/gggggg1.png" fade="0.0"]
+		narrator: its 3 pm and Elara starts waling to the cafe
+		[wait time="1.0"]
+		[background arg="res://images/hh1.png" fade="0.0"]
+		elara: hey blahaj!!!!!
+		blahaj: haiii Elara \:333333 I thought that you would never come
+		elara: what!????
+		blahaj: I already got myself and you some tea.
+		[background arg="res://images/watch 5 pm.png" fade="0.0"]
+		elara: no no no I'm so sorry; cant keep track of time with a broken watch
+		elara: I really should get my watch fixed so this doesn't happen next time
+		[background arg="res://images/b6.png" fade="0.0"]
+		blahaj: you think that there is going to be a next time?
+		elara: YESS
+		elara: of course
+		[background arg="res://images/hh2.png" fade="0.0"]
+		blahaj: YAYYY I would love for there to be a next time
+		[background arg="res://images/hh1.png" fade="0.0"]
+		narrator: Elara sits down and starts talking to blahaj for a while
+		narrator: the topic of music comes up
+		[background arg="res://images/bru .png" fade="0.0"]
+		blahaj: so Elara since were talking about music
+		blahaj: I want to ask you who your fav singer/band  is \:3
+		elara: to tell you the truth my favorite musician is...\
+(answer in the comments)
+		- Taylor Swift
+		- Penelope Scott
+		- Mitski
+		- Stomach Book
+		- Laufey
+		- Other(tell me in the comments)
 	- hiking
 		jump bbc2
 	# just to separate it
