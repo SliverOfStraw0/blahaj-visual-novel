@@ -14,3 +14,50 @@ offset_left = -18.0
 offset_top = -19.0
 offset_right = 548.0
 offset_bottom = 972.0
+
+[node name="stamps" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+mouse_filter = 2
+
+[node name="ColorRect" type="ColorRect" parent="stamps"]
+layout_mode = 0
+offset_left = 434.0
+offset_top = 814.0
+offset_right = 543.0
+offset_bottom = 962.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+
+[node name="Label" type="Label" parent="stamps/ColorRect"]
+layout_mode = 0
+offset_left = 9.0
+offset_top = 10.0
+offset_right = 100.0
+offset_bottom = 137.0
+text = "this project
+was made 
+without the
+use of gen 
+AI"
+
+[node name="ColorRect2" type="ColorRect" parent="stamps"]
+layout_mode = 0
+offset_left = 275.0
+offset_top = 874.0
+offset_right = 412.0
+offset_bottom = 962.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+
+[node name="Label" type="Label" parent="stamps/ColorRect2"]
+layout_mode = 0
+offset_left = 9.0
+offset_top = 7.0
+offset_right = 160.0
+offset_bottom = 82.0
+text = "created by
+@Elara_shelley 
+Simon Mickal"
