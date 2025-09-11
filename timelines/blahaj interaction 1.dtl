@@ -53,14 +53,15 @@ narrator: what should Elara do about the blahaj?\
 	- The movies (to see hamilton)
 		jump bbc2
 	- tea party
+		[background arg="res://images/yes daddy harder.png" fade="0.0"]
 		elara: hey blahaj Would you like to get some tea with me?
-		blahaj: I thought you'd never ask 
+		blahaj: I thought you'd never ask
 		blahaj: I wanted to ask you myself but then I kinda fell asleep \:3
-		elara: lets meet at the cafe 3pm 
+		elara: lets meet at the cafe 5pm
 		blahaj: okey!!! so excited \:3
 		[wait time="1.0"]
 		[background arg="res://images/gggggg1.png" fade="0.0"]
-		narrator: its 3 pm and Elara starts waling to the cafe
+		narrator: its 5 pm and Elara starts walking to the cafe
 		[wait time="1.0"]
 		[background arg="res://images/hh1.png" fade="0.0"]
 		elara: hey blahaj!!!!!
