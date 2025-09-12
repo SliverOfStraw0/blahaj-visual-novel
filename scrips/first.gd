@@ -20,7 +20,7 @@ func _process(delta: float) -> void:
 	if Input.is_action_pressed("saveshow"):
 		shotheSaveButtons = true
 		$"CanvasLayer/press to save_load".hide()
-		$CanvasLayer/stamps.hide()
+		$CanvasLayer/badges_badges.hide()
 	else:
 		shotheSaveButtons = false
 
@@ -39,9 +39,7 @@ func _on_timer_timeout() -> void:
 	tween.tween_property($"CanvasLayer/press to save_load", "modulate:a",0, 2.5)
 
 func _on_stamps_timeout() -> void:
-	var tween = get_tree().create_tween()
-	tween.tween_property($CanvasLayer/stamps, "modulate:a",0, 2.5)
-
+	pass
 func _on_save_2_pressed() -> void:
 	Dialogic.Save.save("2nd")
 

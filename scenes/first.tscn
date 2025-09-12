@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://7fvgg0d66cvd"]
+[gd_scene load_steps=3 format=3 uid="uid://7fvgg0d66cvd"]
 
 [ext_resource type="Script" path="res://scrips/first.gd" id="1_5nbtr"]
+[ext_resource type="PackedScene" uid="uid://b1xaffbvk386h" path="res://scenes/badges.tscn" id="2_ugt7g"]
 
 [node name="main" type="Node2D"]
 script = ExtResource("1_5nbtr")
@@ -54,74 +55,6 @@ text = "save 2"
 layout_mode = 2
 text = "load 2"
 
-[node name="stamps" type="Control" parent="CanvasLayer"]
-layout_mode = 3
-anchors_preset = 0
-offset_right = 40.0
-offset_bottom = 40.0
-mouse_filter = 2
-
-[node name="ColorRect" type="ColorRect" parent="CanvasLayer/stamps"]
-layout_mode = 0
-offset_left = 434.0
-offset_top = 814.0
-offset_right = 543.0
-offset_bottom = 962.0
-mouse_filter = 2
-
-[node name="Label" type="Label" parent="CanvasLayer/stamps/ColorRect"]
-layout_mode = 0
-offset_left = 9.0
-offset_top = 10.0
-offset_right = 100.0
-offset_bottom = 137.0
-theme_override_colors/font_color = Color(0, 0, 0, 1)
-text = "this project
-was made 
-without the
-use of gen 
-AI"
-
-[node name="ColorRect2" type="ColorRect" parent="CanvasLayer/stamps"]
-layout_mode = 0
-offset_left = 275.0
-offset_top = 874.0
-offset_right = 412.0
-offset_bottom = 962.0
-mouse_filter = 2
-
-[node name="Label" type="Label" parent="CanvasLayer/stamps/ColorRect2"]
-layout_mode = 0
-offset_left = 9.0
-offset_top = 7.0
-offset_right = 160.0
-offset_bottom = 82.0
-theme_override_colors/font_color = Color(0, 0, 0, 1)
-text = "created by
-@Elara_shelley 
-Simon Mickal"
-
-[node name="ColorRect3" type="ColorRect" parent="CanvasLayer/stamps"]
-layout_mode = 0
-offset_left = -3.0
-offset_top = 874.0
-offset_right = 208.0
-offset_bottom = 962.0
-mouse_filter = 2
-
-[node name="Label" type="Label" parent="CanvasLayer/stamps/ColorRect3"]
-layout_mode = 0
-offset_left = 9.0
-offset_top = 7.0
-offset_right = 160.0
-offset_bottom = 82.0
-theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_font_sizes/font_size = 12
-text = "This game is in no way affiliated
-with Penelope Scott, Ikea or 
-Rainworld
-"
-
 [node name="Label" type="Label" parent="CanvasLayer"]
 offset_left = 11.0
 offset_top = 225.0
@@ -130,6 +63,10 @@ offset_bottom = 248.0
 rotation = 1.57079
 scale = Vector2(0.488119, 0.488119)
 text = "@elara_shelley on tiktok"
+
+[node name="badges_badges" parent="CanvasLayer" instance=ExtResource("2_ugt7g")]
+offset_top = 815.0
+offset_bottom = 59.0
 
 [node name="Timer" type="Timer" parent="."]
 wait_time = 3.5
