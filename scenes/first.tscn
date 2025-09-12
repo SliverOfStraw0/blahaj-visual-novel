@@ -101,6 +101,27 @@ text = "created by
 @Elara_shelley 
 Simon Mickal"
 
+[node name="ColorRect3" type="ColorRect" parent="CanvasLayer/stamps"]
+layout_mode = 0
+offset_left = -3.0
+offset_top = 874.0
+offset_right = 208.0
+offset_bottom = 962.0
+mouse_filter = 2
+
+[node name="Label" type="Label" parent="CanvasLayer/stamps/ColorRect3"]
+layout_mode = 0
+offset_left = 9.0
+offset_top = 7.0
+offset_right = 160.0
+offset_bottom = 82.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 12
+text = "This game is in no way affiliated
+with Penelope Scott, Ikea or 
+Rainworld
+"
+
 [node name="Label" type="Label" parent="CanvasLayer"]
 offset_left = 11.0
 offset_top = 225.0
