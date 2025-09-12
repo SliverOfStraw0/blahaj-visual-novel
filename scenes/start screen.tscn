@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://b6cvw534pm87x"]
+[gd_scene load_steps=3 format=3 uid="uid://b6cvw534pm87x"]
 
 [ext_resource type="PackedScene" uid="uid://b1xaffbvk386h" path="res://scenes/badges.tscn" id="1_3c61u"]
+[ext_resource type="Texture2D" uid="uid://cqwlfioesgtis" path="res://images/IMG_0016.jpg" id="1_hotvg"]
 
 [node name="start screen" type="Control"]
 layout_mode = 3
@@ -16,7 +17,13 @@ offset_left = -18.0
 offset_top = -19.0
 offset_right = 548.0
 offset_bottom = 972.0
-color = Color(0.306923, 0.306923, 0.306923, 1)
+color = Color(0.450649, 0.450648, 0.450648, 1)
+
+[node name="Img0016" type="Sprite2D" parent="."]
+position = Vector2(269.108, 461.81)
+rotation = 1.57079
+scale = Vector2(0.262089, 0.262089)
+texture = ExtResource("1_hotvg")
 
 [node name="badges_badges" parent="." instance=ExtResource("1_3c61u")]
 layout_mode = 1
