@@ -14,6 +14,7 @@ mouse_filter = 2
 script = ExtResource("1_4tpiu")
 
 [node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
 offset_left = 434.0
 offset_right = 543.0
 offset_bottom = 148.0
@@ -33,6 +34,7 @@ use of gen
 AI"
 
 [node name="ColorRect2" type="ColorRect" parent="."]
+layout_mode = 0
 offset_left = 275.0
 offset_top = 60.0
 offset_right = 412.0
@@ -51,6 +53,7 @@ text = "created by
 Simon Mickal"
 
 [node name="ColorRect3" type="ColorRect" parent="."]
+layout_mode = 0
 offset_left = -3.0
 offset_top = 60.0
 offset_right = 208.0
