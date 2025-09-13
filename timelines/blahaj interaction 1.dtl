@@ -105,11 +105,9 @@ narrator: what should Elara do about the blahaj?\
 			blahaj:  we should let them sit with us
 			elara: I mean if you really want to (¬_¬)
 			[background arg="res://images/newEP/3.png" fade="0.0"]
-			blahaj: nonono I don’t mean it in that way I really enjoy this date\
-
+			blahaj: nonono I don’t mean it in that way I really enjoy this date
 			blahaj: but that person looks like they need some help
-			"elaras mind": What should I do ?\
-
+			"elaras mind": What should I do ?
 			- dont argue with blahaj and let the person to sit there
 			- get angry and leave
 			- don't say anything
