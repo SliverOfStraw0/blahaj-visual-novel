@@ -1,26 +1,31 @@
-[gd_scene load_steps=2 format=3 uid="uid://b1xaffbvk386h"]
+[gd_scene load_steps=3 format=3 uid="uid://b1xaffbvk386h"]
 
 [ext_resource type="Script" path="res://scrips/on_screen_badges.gd" id="1_4tpiu"]
+[ext_resource type="Texture2D" uid="uid://bwrfqd1byx4ad" path="res://images/aoAI.png" id="2_yk4u5"]
 
 [node name="badges_badges" type="Control"]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_bottom = -756.0
+offset_top = 24.0
+offset_bottom = -732.0
 grow_horizontal = 2
 grow_vertical = 2
 mouse_filter = 2
 script = ExtResource("1_4tpiu")
 
-[node name="ColorRect" type="ColorRect" parent="."]
+[node name="no AI" type="ColorRect" parent="."]
+visible = false
 layout_mode = 0
 offset_left = 434.0
+offset_top = 54.0
 offset_right = 543.0
 offset_bottom = 148.0
 mouse_filter = 2
 
-[node name="Label" type="Label" parent="ColorRect"]
+[node name="Label" type="Label" parent="no AI"]
+visible = false
 layout_mode = 0
 offset_left = 9.0
 offset_top = 10.0
@@ -33,15 +38,15 @@ without the
 use of gen 
 AI"
 
-[node name="ColorRect2" type="ColorRect" parent="."]
+[node name="myself" type="ColorRect" parent="."]
 layout_mode = 0
-offset_left = 275.0
+offset_left = 218.0
 offset_top = 60.0
-offset_right = 412.0
+offset_right = 355.0
 offset_bottom = 148.0
 mouse_filter = 2
 
-[node name="Label" type="Label" parent="ColorRect2"]
+[node name="Label" type="Label" parent="myself"]
 layout_mode = 0
 offset_left = 9.0
 offset_top = 7.0
@@ -52,7 +57,7 @@ text = "created by
 @Elara_shelley 
 Simon Mickal"
 
-[node name="ColorRect3" type="ColorRect" parent="."]
+[node name="affiliations" type="ColorRect" parent="."]
 layout_mode = 0
 offset_left = -3.0
 offset_top = 60.0
@@ -60,7 +65,7 @@ offset_right = 208.0
 offset_bottom = 148.0
 mouse_filter = 2
 
-[node name="Label" type="Label" parent="ColorRect3"]
+[node name="Label" type="Label" parent="affiliations"]
 layout_mode = 0
 offset_left = 9.0
 offset_top = 7.0
@@ -71,7 +76,7 @@ theme_override_font_sizes/font_size = 12
 text = "This game is in no way affiliated
 with the following.
 Penelope Scott, Ikea, 
-Rainworld
+Rainworld, Stomach Book
 "
 
 [node name="wait" type="Timer" parent="."]
@@ -79,4 +84,17 @@ wait_time = 15.0
 one_shot = true
 autostart = true
 
+[node name="NoAiBadge-removebg-preview" type="Sprite2D" parent="."]
+position = Vector2(453.5, 62.5)
+scale = Vector2(0.346, 0.346)
+texture = ExtResource("2_yk4u5")
+
+[node name="Button" type="Button" parent="NoAiBadge-removebg-preview"]
+offset_left = -172.0
+offset_top = -218.0
+offset_right = 172.0
+offset_bottom = 238.0
+flat = true
+
 [connection signal="timeout" from="wait" to="." method="_on_wait_timeout"]
+[connection signal="pressed" from="NoAiBadge-removebg-preview/Button" to="." method="_on_button_pressed"]

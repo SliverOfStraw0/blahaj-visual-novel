@@ -24,7 +24,9 @@ directories/dch_directory={
 "blahaj": "res://characters/blahaj.dch",
 "elara": "res://characters/elara.dch",
 "elaras mind": "res://characters/elaras mind.dch",
+"eliphant": "res://characters/eliphant.dch",
 "narrator": "res://characters/narrator.dch",
+"snek": "res://characters/snek.dch",
 "unit_test_character": "res://Tests/Resources/unit_test_character.dch"
 }
 directories/dtl_directory={

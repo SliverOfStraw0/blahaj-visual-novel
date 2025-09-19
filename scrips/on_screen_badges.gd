@@ -14,3 +14,7 @@ func _process(delta: float) -> void:
 func _on_wait_timeout() -> void:
 	var tween = get_tree().create_tween()
 	tween.tween_property(self, "modulate:a",0, 2.5)
+
+
+func _on_button_pressed() -> void:
+	OS.shell_open("https://elarashelley.neocities.org/whithouttheuseofai#AA-001")
