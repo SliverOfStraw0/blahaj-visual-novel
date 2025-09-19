@@ -112,17 +112,27 @@ narrator: what should Elara do about the blahaj?\
 			- get angry and leave
 				[background arg="res://images/newEP02/o12.png" fade="0.0"]
 				narrator: Elara gets angry and leaves the cafe
+				[background arg="res://images/newEP02/o1.png" fade="0.0"]
 				blahaj: well since Elara is gone I guess Ill leave too
+				[background arg="res://images/newEP02/o11.png" fade="0.0"]
 				blahaj: byee elphant
+				[background arg="res://images/newEP02/o10.png" fade="0.0"]
 				eliphant: see you later blahaj
+				[background arg="res://images/newEP02/o09876.png" fade="0.0"]
 				narrator: blahaj leaves the cafe
 				blahaj: Its only a couple more minuts untill I get back home
+				[wait time="0.2"]
+				[background arg="res://images/newEP02/o6.png" fade="0.0"]
 				narrator: out of nowhere blahaj witnesses a long violent creature jump out from the sea bushes
+				[background arg="res://images/newEP02/o2.png" fade="0.0"]
 				blahaj: AHHHHHHHHH
 				blahaj: oh my
+				[background arg="res://images/newEP02/o7.png" fade="0.0"]
 				blahaj: hey there little buddy
 				blahaj: I thouthgt that you were a violent monster
+				[background arg="res://images/newEP02/o6.png" fade="0.0"]
 				snek: meep! \:3
+				[background arg="res://images/newEP02/o3.png" fade="0.0"]
 				narrator: KACHING!!!
 				[wait time="2.5"]
 				narrator: to be continued...
