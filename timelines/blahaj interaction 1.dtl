@@ -110,21 +110,22 @@ narrator: what should Elara do about the blahaj?\
 			"elaras mind": What should I do ?
 			- dont argue with blahaj and let the person to sit there
 			- get angry and leave
+				[background arg="res://images/newEP02/o12.png" fade="0.0"]
 				narrator: Elara gets angry and leaves the cafe
 				blahaj: well since Elara is gone I guess Ill leave too
 				blahaj: byee elphant
 				eliphant: see you later blahaj
-				narrator: blahaj leaves the cafe 
-				blahaj: Its only a couple more minuts untill I get back home 
+				narrator: blahaj leaves the cafe
+				blahaj: Its only a couple more minuts untill I get back home
 				narrator: out of nowhere blahaj witnesses a long violent creature jump out from the sea bushes
 				blahaj: AHHHHHHHHH
-				blahaj: oh my 
-				blahaj: hey there little buddy 
-				blahaj: I thouthgt that you were a violent monster 
+				blahaj: oh my
+				blahaj: hey there little buddy
+				blahaj: I thouthgt that you were a violent monster
 				snek: meep! \:3
 				narrator: KACHING!!!
 				[wait time="2.5"]
-				blahaj: wait were am I?!!
+				narrator: to be continued...
 			- don't say anything
 			# go an write what the google docs said https://docs.google.com/document/d/1DZPPwubyz99S7XZCX0f7RY6uLeBJS-HpShgftKxV9-U/edit?tab=t.0
 		- Laufey
